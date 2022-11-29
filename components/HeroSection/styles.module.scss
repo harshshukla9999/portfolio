@@ -1,0 +1,23 @@
+@import '../../styles/theme';
+
+.content{
+    margin: 0;
+    width: 100%;
+    background: $lsblack;
+    color: $white;
+    padding-bottom: 10rem;
+    p{
+        font-size: 1rem;
+        font-weight: 100;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    .name{
+        color: $aqua;
+        display: block;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+}
