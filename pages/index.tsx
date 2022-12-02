@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import HeroSection from '../components/HeroSection'
+import Navbar from '../components/Navbar'
+import UpperFooter from '../components/UpperFooter'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Navbar/>
         <HeroSection/>
+        <UpperFooter/>
       </main>
 
       <footer className={styles.footer}>

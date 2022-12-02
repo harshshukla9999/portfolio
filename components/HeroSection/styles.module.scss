@@ -1,18 +1,18 @@
 @import '../../styles/theme';
-
-.content{
-    margin: 0;
-    width: 100%;
+.hero{
     background: $lsblack;
+    padding: 0% 2%;
+.content{
+    width: 60%;
     color: $white;
-    padding-bottom: 10rem;
+    padding: 5rem 0;
     p{
         font-size: 1rem;
         font-weight: 100;
         line-height: 1.5;
     }
     h2{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .name{
         color: $aqua;
@@ -20,4 +20,5 @@
         font-size: 3rem;
         font-weight: 400;
     }
+}
 }

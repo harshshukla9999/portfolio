@@ -1,0 +1,66 @@
+@import '../../styles/theme';
+.content{
+    background: $lsblack;
+    color: $white;
+    padding: 1% 2%;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4%;
+        font-size: 1rem;
+        .navIcons{
+            font-size: 150%;
+        }
+        li{
+            list-style: none;
+        }
+        li:hover{
+            color: $blu;
+            cursor: pointer;
+        }
+        li:first-child{
+            flex-basis: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            margin: 5% 0%;
+            span{
+                margin-left: 5% ;
+            }
+            .jsIcon{
+                font-size: 120%;
+            }
+        }
+        li:last-child{
+            background: $blu;
+            padding: 0.5rem;
+            border-radius: 10px;
+        }
+        li:last-child:hover{
+            color: $white;
+            background: $hotblu;
+        }
+    }
+}
+@media (min-width: 915px){
+    .content{
+        ul{
+            li:first-child{
+                flex-basis: auto;
+                text-align: left;
+                justify-content: flex-start;
+                align-items:center;
+                font-size: 1rem;
+                margin: 0% auto 0% 0%;
+                .jsIcon{
+                    padding: auto;
+                    font-size: 275%;
+                }
+            }
+        }
+    }
+    
+}
